@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+#app {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+#app #btn-loading {
+  margin-top: 0;
+}
+
+#app h3 {
+  font-weight: 600;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <title>Url Shortener</title>
+    <link rel="stylesheet" href="./scss/main.css" />
+  </head>
+  <body style="background-color: #1e1e1e">
+    <div id="app" class="mt-5 text-light">
+      <div class="container text-center">
+        <div class="row justify-content-center">
+          <h3>🚀 Url Shortener - Dimas.Ngoding</h3>
+        </div>
+        <div class="row justify-content-center">
+          <form>
+            <div class="form-group mt-4">
+              <label>Paste Your URL Here</label>
+              <input type="text" class="form-control" />
+            </div>
+          </form>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-sm-8">
+            <button class="btn btn-outline-light btn-block" id="shorten">
+              Shorten URL
+            </button>
+            <button
+              class="btn btn-outline-light btn-block d-none"
+              id="btn-loading"
+              type="button"
+              disabled
+            >
+              <span
+                class="spinner-border spinner-border-sm"
+                role="status"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Loading...</span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="row justify-content-center mt-3 text-dark"
+          id="tempatCard"
+        ></div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
